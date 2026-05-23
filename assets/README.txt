@@ -1,0 +1,1 @@
+Copy church-collage.jpg and pastor-family.jpg into this folder from previous package.

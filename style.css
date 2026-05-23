@@ -2,8 +2,9 @@
 body {
     margin: 0;
     font-family: Georgia, serif;
-    background: white;
+    background-color: white;
     color: #2b2b2b;
+    line-height: 1.6;
 }
 
 .page-wrapper {
@@ -18,9 +19,18 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #7b1f2b;
+    background-color: #7b1f2b;
     color: white;
     padding: 20px 30px;
+}
+
+.site-title h1 {
+    margin: 0;
+    font-size: 2.2rem;
+}
+
+.site-title p {
+    margin: 5px 0 0 0;
 }
 
 nav {
@@ -41,20 +51,26 @@ nav a {
 .layout {
     display: flex;
     gap: 25px;
+    align-items: flex-start;
 }
 
-.left-column { flex: 3; }
-.right-column { flex: 1; }
+.left-column {
+    flex: 3;
+}
+
+.right-column {
+    flex: 1;
+}
 
 .hero img {
-    width: 75%;
+    width: 78%;
     display: block;
     margin: auto;
     border-radius: 10px;
 }
 
 .pastor-photo {
-    width: 70%;
+    width: 72%;
     display: block;
     margin: auto;
     border-radius: 10px;
@@ -65,20 +81,39 @@ nav a {
     padding: 20px;
     margin-bottom: 20px;
     border-radius: 10px;
-    box-shadow: 0 2px 6px rgba(0,0,0,.15);
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+
+h2 {
+    color: #7b1f2b;
 }
 
 .footer {
-    background: #7b1f2b;
+    background-color: #7b1f2b;
     color: white;
     text-align: center;
     padding: 20px;
+    margin-top: 20px;
 }
 
 @media (max-width: 900px) {
-    .layout { flex-direction: column; }
+    .layout {
+        flex-direction: column;
+    }
+
     .top-bar {
         flex-direction: column;
         text-align: center;
+    }
+
+    nav {
+        margin-top: 15px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .hero img,
+    .pastor-photo {
+        width: 95%;
     }
 }
