@@ -2,30 +2,25 @@
 body {
     margin: 0;
     font-family: Georgia, serif;
-/*    background-color: #d8d0c8;*/
-    background-color: white;
+    background: white;
     color: #2b2b2b;
 }
 
 .page-wrapper {
-    max-width: 1350px;
-    margin: 20px auto;
-    background: #f7f3ef;
-    border: 8px solid #7b1f2b;
-    box-shadow: 0 0 12px rgba(0,0,0,0.3);
+    width: 100%;
+    min-height: 100vh;
+    border: 6px solid #7b1f2b;
+    box-sizing: border-box;
+    background: white;
 }
 
 .top-bar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #7b1f2b;
+    background: #7b1f2b;
     color: white;
-    padding: 20px;
-}
-
-.site-title h1 {
-    margin: 0;
+    padding: 20px 30px;
 }
 
 nav {
@@ -48,23 +43,18 @@ nav a {
     gap: 25px;
 }
 
-.left-column {
-    flex: 3;
-}
-
-.right-column {
-    flex: 1;
-}
+.left-column { flex: 3; }
+.right-column { flex: 1; }
 
 .hero img {
-    width: 88%;
+    width: 75%;
     display: block;
     margin: auto;
     border-radius: 10px;
 }
 
 .pastor-photo {
-    width: 85%;
+    width: 70%;
     display: block;
     margin: auto;
     border-radius: 10px;
@@ -75,29 +65,20 @@ nav a {
     padding: 20px;
     margin-bottom: 20px;
     border-radius: 10px;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+    box-shadow: 0 2px 6px rgba(0,0,0,.15);
 }
 
 .footer {
-    background-color: #7b1f2b;
+    background: #7b1f2b;
     color: white;
     text-align: center;
     padding: 20px;
 }
 
 @media (max-width: 900px) {
-    .layout {
-        flex-direction: column;
-    }
-
+    .layout { flex-direction: column; }
     .top-bar {
         flex-direction: column;
         text-align: center;
-    }
-
-    nav {
-        margin-top: 15px;
-        flex-wrap: wrap;
-        justify-content: center;
     }
 }
