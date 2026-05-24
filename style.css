@@ -18,7 +18,8 @@ body {
 .top-bar {
     display: flex;
     align-items: center;
-    background-color: #7b1f2b;
+/*    background-color: #7b1f2b;*/
+    background-color:white;
     color: white;
     padding: 20px 3% 20px 3%;
 }
