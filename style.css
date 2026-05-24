@@ -27,7 +27,7 @@ nav {
     display: flex;
     gap: 20px;
     justify-content: flex-end;
-    padding-right:50px;
+    padding-right:5%;
     flex: 1;
 }
 
