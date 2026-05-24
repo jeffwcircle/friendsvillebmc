@@ -26,7 +26,8 @@ body {
 nav {
     display: flex;
     gap: 20px;
-    margin-right: 3%;
+    justify-content: flex-end;
+    flex: 1;
 }
 
 .site-title {
