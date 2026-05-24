@@ -10,7 +10,7 @@ body {
 .page-wrapper {
     width: 100%;
     min-height: 100vh;
-    border: 6px solid #7b1f2b;
+    border: 16px solid #7b1f2b;
     box-sizing: border-box;
     background: white;
 }
