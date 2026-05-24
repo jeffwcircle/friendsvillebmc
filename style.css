@@ -8,9 +8,8 @@ body {
 }
 
 .page-wrapper {
-    width: 80%;
+    width: 100%;
     min-height: 100vh;
-    margin: 0 auto;
     border: 6px solid #7b1f2b;
     box-sizing: border-box;
     background: white;
@@ -27,7 +26,7 @@ body {
 nav {
     display: flex;
     gap: 20px;
-    margin-right: 8%;
+    margin-right: 3%;
 }
 
 .site-title h1 {
@@ -51,7 +50,7 @@ nav a {
 }
 
 .container {
-    padding: 25px;
+    padding: 25px 10%;
 }
 
 .layout {
