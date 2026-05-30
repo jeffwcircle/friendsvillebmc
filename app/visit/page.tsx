@@ -1,4 +1,4 @@
-export default function HomePage() {
+export default function PastorPage() {
   return (
     <div className="page-wrapper">
 
@@ -22,18 +22,20 @@ export default function HomePage() {
 
           <div className="left-column">
 
-            <div className="hero">
-              <img
-                src="/church-collage.jpg"
-                alt="Church"
-              />
-            </div>
-
             <div className="card">
-              <p>
-                Thanks for visiting our website. If we can be of any assistance to you, please let us know. If you don’t have a home church we would love to have you visit our church and become part of our church family.
-              </p>
             </div>
+	    <div className="card">
+
+	        <h2>Find Us</h2>
+
+	        <iframe
+	            src="https://www.google.com/maps?q=108+E+First+Ave+Friendsville+TN+37737&output=embed"
+	            width="100%"
+	            height="450"
+	            loading="lazy">
+	        </iframe>
+
+	    </div>
 
           </div>
 
@@ -87,6 +89,10 @@ export default function HomePage() {
 
         </div>
 
+      </div>
+
+      <div className="footer">
+        Friendsville Bible Methodist Church
       </div>
 
     </div>

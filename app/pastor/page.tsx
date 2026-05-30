@@ -1,4 +1,6 @@
-export default function HomePage() {
+import PageGallery from "@/components/PageGallery";
+
+export default function PastorPage() {
   return (
     <div className="page-wrapper">
 
@@ -22,18 +24,35 @@ export default function HomePage() {
 
           <div className="left-column">
 
-            <div className="hero">
-              <img
-                src="/church-collage.jpg"
-                alt="Church"
-              />
+            <div className="card">
+
+              <h2>Pastor Dana Bentz</h2>
+
+              <p>
+                Rev. Dana Bentz has been our pastor since August 2006.
+                He was assistant pastor from July 2004 to August 2006.
+                He graduated from Penn View Bible Institute with a degree
+                in Ministerial studies in May 2004.
+              </p>
+
+              <p>
+                Pastor Bentz and his wife, Debbie, have been married for
+                28 years. They have 2 children, Dawn and Michael.
+                Dawn and her husband, Wayne, have blessed the Bentz family
+                with two beautiful Grandchildren, Reagan Kate Evans and
+                Jace Ethan Evans.
+              </p>
+
+              <p>
+                Family is very important to Pastor &amp; Mrs. Bentz and
+                they consider their church congregation part of their family.
+              </p>
+
             </div>
 
-            <div className="card">
-              <p>
-                Thanks for visiting our website. If we can be of any assistance to you, please let us know. If you don’t have a home church we would love to have you visit our church and become part of our church family.
-              </p>
+            <div className="photo-gallery">
             </div>
+		<PageGallery pageName="pastor" />
 
           </div>
 
@@ -87,6 +106,10 @@ export default function HomePage() {
 
         </div>
 
+      </div>
+
+      <div className="footer">
+        Friendsville Bible Methodist Church
       </div>
 
     </div>
